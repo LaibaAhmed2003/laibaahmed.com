@@ -1,0 +1,396 @@
+.Services-container{
+    background-color: black;
+    padding: 80px 10px;
+    color: white;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+.ser-part1{
+    width: 580px;
+}
+.ser-part1 h5{
+    font-size: 16px;
+    padding: 10px 0px;
+    color: grey;
+}
+.ser-part1 h2{
+    font-size: 48px;
+    padding: 10px 0px;
+}
+.ser-part1 p{
+    font-size: 18px;
+    padding: 10px 0px;
+}
+.ser-icon{
+    width: 40px;
+    height: 40px;
+}
+.button-container{
+    margin-top: 30px;
+    border: 1px solid #cef5a4;
+    padding: 0px;
+    border-radius: 50px;
+    width: fit-content;
+}
+.button{
+  background-color: #cef5a4;
+  border: none;
+  border-radius: 20px;
+  color: black;
+  font-weight: bold;
+  padding: 18px 24px;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+  transition: all 0.3s ease;
+  border: 1px solid #cef5a4;
+  border-radius: 50px;
+  position: relative;
+  top: -4px;
+  left: 4px;
+}
+.button:hover{
+    transform: translate(-4px,4px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.button .btn{
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 20px;
+}
+
+.button .btn h3{
+    font-size: 18px;
+    font-weight: 400;
+
+}
+.ser-part2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+
+}
+
+.main-service{
+    text-align: left;
+    width: 500px; 
+    height: 250px;
+    border: 1px solid #282828;
+    padding: 2.5rem;
+    border-radius: 1.25rem;
+    background-image: url(/src/images/serv.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    gap: 20px;
+}
+
+.main-service h3{
+    padding: 10px 0px 0px 0px;
+    font-size: 32px;
+}
+.main-service p{
+    font-size: 16px;
+}
+
+  .main-service .btn-con {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .main-service .btn-con .arrow-right {
+    z-index: 1;
+    border: 0.1rem solid #cef5a4;
+    border-radius: 100%;
+    justify-content: center;
+    align-items: center;
+    width: 3rem;
+    height: 3rem;
+    transition: all 0.4s ease;
+    display: flex;
+    color: black;
+    background-color: #cef5a4;
+    position: relative;
+  }
+  
+  .main-service .btn-con .arrow-right:hover {
+    width: 10rem; 
+    height: 3rem; /* Maintain height */
+    border-radius: 1.5rem; /* Oval shape */
+    background-color: #cef5a4; /* Keep the background color */
+    cursor: pointer;
+  }
+  .arr{
+    position: absolute;
+    left: 17px;
+  }
+  
+  .main-service .btn-con .arrow-right:hover + .btn-text {
+    z-index: 2; /* Ensure text stays visible */
+    color: black; /* Adjust text color for visibility */
+  }
+  
+  .main-service .btn-text {
+    font-size: 1rem;
+    color: white; /* Default text color */
+    position: absolute; /* Make text part of the button */
+    left: 3.5rem; /* Position text next to the button */
+    transition: all 0.4s ease;
+    z-index: 1; /* Same z-index as background to get overlapped */
+    pointer-events: none; /* Prevent interaction issues */
+  }
+  
+
+@media(min-width: 300px) and (max-width: 500px){
+  .Services-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    padding: 10px 20px;
+  }
+  .ser-part1{
+    width: 344px;
+    padding-bottom: 30px;
+}
+.main-service {
+  text-align: left;
+  width: 253px;
+  height: fit-content;
+  border: 1px solid #282828;
+  padding: 2.5rem;
+  border-radius: 1.25rem;
+  background-image: url(/src/images/serv.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex
+;
+  flex-direction: column;
+  align-items: left;
+  gap: 20px;
+}
+}
+
+
+
+
+.Services-container {
+  background-color: black;
+  padding: 80px 10px;
+  color: white;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  height: 80vh; /* Set the height to 80% of the viewport */
+  overflow: hidden; /* Hide any overflow outside the container */
+}
+
+.ser-part1 {
+  width: 580px;
+}
+
+.ser-part1 h5 {
+  font-size: 16px;
+  padding: 10px 0px;
+  color: grey;
+}
+
+.ser-part1 h2 {
+  font-size: 48px;
+  padding: 10px 0px;
+}
+
+.ser-part1 p {
+  font-size: 18px;
+  padding: 10px 0px;
+}
+
+.ser-icon {
+  width: 40px;
+  height: 40px;
+}
+
+.button-container {
+  margin-top: 30px;
+  border: 1px solid #cef5a4;
+  padding: 0px;
+  border-radius: 50px;
+  width: fit-content;
+}
+
+.button {
+  background-color: #cef5a4;
+  border: none;
+  border-radius: 20px;
+  color: black;
+  font-weight: bold;
+  padding: 18px 24px;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+  transition: all 0.3s ease;
+  border: 1px solid #cef5a4;
+  border-radius: 50px;
+  position: relative;
+  top: -4px;
+  left: 4px;
+}
+
+.button:hover {
+  transform: translate(-4px, 4px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.button .btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.button .btn h3 {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.ser-part2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  overflow-y: auto; /* Enable vertical scrolling */
+  height: 80vh; 
+  padding-right: 20px; /* Add padding to avoid content being cut off */
+}
+
+/* Hide scrollbar */
+.ser-part2::-webkit-scrollbar {
+  display: none;
+}
+
+.main-service {
+  text-align: left;
+  width: 500px;
+  height: fit-content;
+  border: 1px solid #282828;
+  padding: 2.5rem;
+  border-radius: 1.25rem;
+  background-image: url(/src/images/serv.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  gap: 20px;
+}
+
+.main-service h3 {
+  padding: 10px 0px 0px 0px;
+  font-size: 32px;
+}
+
+.main-service p {
+  font-size: 16px;
+}
+
+.main-service .btn-con {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+  position: relative;
+  overflow: hidden;
+}
+
+.main-service .btn-con .arrow-right {
+  z-index: 1;
+  border: 0.1rem solid #cef5a4;
+  border-radius: 100%;
+  justify-content: center;
+  align-items: center;
+  width: 3rem;
+  height: 3rem;
+  transition: all 0.4s ease;
+  display: flex;
+  color: black;
+  background-color: #cef5a4;
+  position: relative;
+}
+
+.main-service .btn-con .arrow-right:hover {
+  width: 10rem;
+  height: 3rem; /* Maintain height */
+  border-radius: 1.5rem; /* Oval shape */
+  background-color: #cef5a4; /* Keep the background color */
+  cursor: pointer;
+}
+
+.arr {
+  position: absolute;
+  left: 17px;
+}
+
+.main-service .btn-con .arrow-right:hover + .btn-text {
+  z-index: 2; /* Ensure text stays visible */
+  color: black; /* Adjust text color for visibility */
+}
+
+.main-service .btn-text {
+  font-size: 1rem;
+  color: white; /* Default text color */
+  position: absolute; /* Make text part of the button */
+  left: 3.5rem; /* Position text next to the button */
+  transition: all 0.4s ease;
+  z-index: 1; /* Same z-index as background to get overlapped */
+  pointer-events: none; /* Prevent interaction issues */
+}
+
+@media(min-width: 300px) and (max-width: 500px) {
+  .Services-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    padding: 10px 20px;
+  }
+
+  .ser-part1 {
+    width: 344px;
+    padding-bottom: 30px;
+  }
+
+  .main-service {
+    text-align: left;
+    width: 253px;
+    height: fit-content;
+    border: 1px solid #282828;
+    padding: 2.5rem;
+    border-radius: 1.25rem;
+    background-image: url(/src/images/serv.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    gap: 20px;
+  }
+}
+
+
+
+
+
+
+

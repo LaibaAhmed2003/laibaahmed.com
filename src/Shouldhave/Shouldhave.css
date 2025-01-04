@@ -1,0 +1,153 @@
+
+
+.shouldhave-container {
+    background-color: #000000d4;
+    color: white;
+    padding: 90px 10px;
+    text-align: center;
+    position: relative;
+  }
+  
+  .should-head {
+    font-size: 48px;
+    padding-bottom: 60px;
+  }
+  
+  .should-smallsec {
+    padding: 0 90px;
+    display: flex;
+    gap: 20px;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+  }
+  
+  .sec {
+    text-align: left;
+    width: 320px; /* Adjusted width */
+    border: 1px solid #282828;
+    padding: 2.5rem;
+    border-radius: 1.25rem;
+    background-image: url(/src/images/serv.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    gap: 20px;
+  }
+  
+  .sec-vid {
+    width: 60px;
+    height: 60px;
+    padding: 5px 0px;
+
+  }
+  
+  .sec h4 {
+    font-size: 32px;
+    padding: 5px 0px;
+  }
+  
+  .sec p {
+    padding: 5px 0px;
+
+    font-size: 16px;
+  }
+  
+  .navigation-arrows {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 60px; /* Adjusted spacing */
+  }
+  
+  .navigation-arrows button {
+    /* background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    font-size: 20px;
+    font-weight: 600px;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.3s ease; */
+    z-index: 0;
+    border: .1rem solid white;
+    border-radius: 100%;
+    justify-content: center;
+    align-items: center;
+    width: 3rem;
+    height: 3rem;
+    transition: all .25s;
+    display: flex;
+    color: white;
+    background-color: transparent;
+    inset: auto auto 0% 51%;
+  }
+  
+  .navigation-arrows button:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+  }
+  
+  .services-mask {
+    width: 100%;
+  }
+  
+  .w-slider-mask {
+    z-index: 1;
+    white-space: nowrap;
+    height: 100%;
+    display: block;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .w-slide {
+    vertical-align: top;
+    white-space: normal;
+    text-align: left;
+    height: 100%;
+    width: 410px;
+    display: inline-block;
+    position: relative;
+    transition: all;
+    opacity: 1;
+    margin: 0px 20px;
+  }
+  
+
+  .circle-text {
+    position: relative;
+    display: inline-block; 
+  }
+  
+  .circle-text::before {
+    content: "";
+    position: absolute;
+    top: 20%;
+    left: -3%;
+    width: 120%;
+    height: 110%;
+    border: 3px solid #cef5a4; 
+    width: 186px;
+    height: 54px;
+    border-radius: 50%;
+    z-index: 1;
+  }
+
+  @media (min-width: 300px) and (max-width: 500px){
+    .w-slider-mask {
+      padding: 0;
+    }
+    .w-slide{
+      height: 100%;
+      width: 270px;
+    }
+  }
+  
+  
+
+  

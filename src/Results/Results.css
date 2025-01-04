@@ -1,0 +1,41 @@
+.results-container{
+    text-align: center;
+    color: white;
+    padding: 5% 0px;
+}
+.results-container h2{
+    font-size: 48px;
+}
+.span{
+    color: #cef5a4;
+}
+.all-results{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.results-dec{
+    padding: 50px 0px;
+}
+.results-dec .num{
+    font-size: 80px;
+}
+.results-dec p{
+    font-size: 18px;
+    color: #d1d1d1;
+}
+
+@media(min-width: 300px) and (max-width: 500px){
+    .results-container h2{
+        padding: 20px;
+    }
+    .all-results {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .results-dec .num{
+        font-size: 60px;
+    }
+}

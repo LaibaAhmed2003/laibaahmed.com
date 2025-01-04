@@ -1,0 +1,163 @@
+.navbar-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 70px 30px 70px;
+    background-color: black;
+}
+.navbar-container .logo h1{
+    font-size: 32px;
+    color: white;
+}
+.logo .span{
+    color: #cef5a4;
+}
+.navbar-container .navlinks-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+.navbar-container .navlinks-container .navlinks{
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+}
+.navbar-container .button-container{
+    border: 1px solid #cef5a4;
+    padding: 0px;
+    border-radius: 50px;
+}
+.navbar-container .button{
+    background-color: #cef5a4;
+  border: none;
+  border-radius: 20px;
+  color: black;
+  font-weight: bold;
+  padding: 18px 24px;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+  transition: all 0.3s ease;
+  border: 1px solid #cef5a4;
+  border-radius: 50px;
+  position: relative;
+  top: -4px;
+  left: 4px;
+}
+.button:hover{
+    transform: translate(-4px,4px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.button .btn{
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 20px;
+}
+
+.button .btn h3{
+    font-size: 18px;
+    font-weight: 400;
+
+}
+
+.navlinks {
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+    position: relative;
+  }
+  
+  .navlinks.active {
+    color: #cef5a4;
+  }
+  
+  .navlinks.active::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -8px; /* Adjust distance from text */
+    width: 100%;
+    height: 10px; /* Height of the zigzag */
+    background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%' height='100%' viewBox='0 0 200 10'%3E%3Cpath d='M0 5 Q10 0 20 5 T40 5 T60 5 T80 5 T100 5 T120 5 T140 5 T160 5 T180 5 T200 5' fill='none' stroke='%23cef5a4' stroke-width='2'/%3E%3C/svg%3E")
+      repeat-x;
+    background-size:123px 8px; /* Adjust size of zigzag */
+  }
+  
+  @media(min-width: 300px) and (max-width: 500px){
+    .navbar-container{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px;
+    }
+    .navbar-container .navlinks-container{
+      display: none;
+    }
+    .navbar-container .button-container{
+      display: none;
+    }
+  }
+
+
+
+
+
+
+
+
+
+  /* Mobile menu icon */
+.menu-icon {
+  color: white;
+  font-size: 28px;
+  cursor: pointer;
+  display: none; /* Hidden by default */
+}
+
+/* Display menu icon only on mobile devices */
+@media (min-width: 300px) and (max-width: 500px) {
+  .menu-icon {
+    display: block;
+    color: white;
+  }
+  .navbar-container{
+    padding: 20px;
+  }
+  .navbar-container .navlinks-container {
+    display: none; /* Hide navigation links initially */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    gap: 30px;
+  }
+  .navbar-container .navlinks-container.open {
+    display: flex; /* Show navigation links when open */
+  }
+  .navbar-container .button-container {
+    display: none; /* Hide Get Started button on mobile */
+  }
+}
+
+/* Keep existing styles for larger screens */
+@media (min-width: 501px) {
+  .menu-icon {
+    display: none;
+  }
+}
+
+
+
+
+
+
+
+

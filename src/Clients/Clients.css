@@ -1,0 +1,68 @@
+.clients-bg {
+  padding-top: 30px;
+  width: 80%;
+  overflow: hidden;
+}
+
+.clients-container {
+  text-align: center;
+  padding: 2rem;
+  border-radius: 20rem;
+  background-image: url("../images/serv.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 1px solid #43424280;
+}
+
+.small-head {
+  color: #ffffff80;
+  margin-bottom: 10px;
+}
+
+.client-sec {
+  display: flex;
+  gap: 30px;
+  animation: scroll 20s linear infinite;
+  will-change: transform;
+}
+
+.client-sec img {
+  max-height: 2rem;
+  max-width: 100%;
+  margin: 5px 30px;
+}
+
+@keyframes scroll {
+  0% {
+      transform: translateX(0);
+  }
+  100% {
+      transform: translateX(-100%);
+  }
+}
+
+@media (max-width: 500px) {
+  .clients-bg {
+    margin-left: 7px;
+    width: 98%;
+}
+  .clients-container {
+    height: fit-content;
+  }
+
+  .client-sec {
+    display: inline-block;
+    white-space: nowrap;
+    width: 100%;
+    overflow: visible;
+    margin: 10px;
+}
+
+  .client-sec img {
+    max-height: 1.5rem;
+    margin: 14px;
+    scroll-snap-align: start;
+  }
+
+}

@@ -1,0 +1,119 @@
+.Footer-container{
+    text-align: center;
+    padding: 40px;
+}
+.footer-sec1{
+    border-bottom: 1px solid rgb(30, 30, 30);
+}
+.footer-sec1 h2{
+    font-size: 180px;
+    line-height: 1;
+    color: #cef5a4;
+}
+.footer-sec1 h3{
+    font-size: 48px;
+} 
+.connect{
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+.long-arrow {
+    margin: 0 20px;
+  }
+  
+  .long-arrow .fa-arrow-right {
+    font-size: 2rem; /* Adjust the size */
+    transform: rotate(0deg); /* Rotate the arrow to make it horizontal */
+  }
+.footer-sec2{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    gap: 200px;
+    padding: 50px 0px;
+    border-bottom: 1px solid rgb(30, 30, 30);
+}
+.f-sec{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.f-sec h5{
+    margin-top: 10px;
+    font-weight: 400;
+    /* padding: 5px 0px;a */
+    cursor: pointer;
+}
+.social-icons{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 18px;
+}
+.i-s{
+    font-size: 25px;
+}
+.i-s:hover{
+    color: #cef5a4;
+    cursor: pointer;
+}
+.footer-sec3{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 85px;
+}
+
+.footer-sec3 p{
+    color: grey;
+}
+
+
+@media (min-width: 300px) and (max-width: 500px){
+    .Footer-container{
+        text-align: left;
+    }
+    .footer-sec1 h2{
+      font-size: 65px;
+      height: fit-content;
+
+    }
+    .connect {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                justify-content: flex-start;
+                padding: 0px;
+                padding-top: 10px;
+    }
+    .footer-sec1 h3 {
+        font-size: 24px;
+    }
+    .footer-sec2 {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-evenly;
+        gap: 23px;
+        padding: 50px 0px;
+        border-bottom: 1px solid rgb(30, 30, 30);
+    }
+    .footer-sec3 {
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-between;
+        padding: 0;
+    }
+    .footer-sec3 p{
+        text-align: left;
+    }
+}
