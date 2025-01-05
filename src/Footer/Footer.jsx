@@ -11,7 +11,7 @@ import {
 const Footer = () => {
   return (
     <>
-      <div className="Footer-container">
+      <div className="Footer-container" id="footer">
         <div className="footer-sec1">
           <h2>Let’s work together.</h2>
           <div className="connect">

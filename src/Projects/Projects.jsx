@@ -33,7 +33,7 @@ const Projects = () => {
 
   return (
     <>
-      <div className="Projects-container">
+      <div className="Projects-container" id="projects">
         <h2>
           I work w/ forward-thinking, consumer-friendly{" "}
           <span style={{ color: "#cef5a4" }}>DTC brands.</span>

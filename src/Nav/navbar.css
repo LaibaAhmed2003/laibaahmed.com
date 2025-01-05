@@ -56,11 +56,13 @@ justify-content: center;
 gap: 20px;
 }
 
-.button .btn h3{
+.button .btn .h3{
     font-size: 18px;
     font-weight: 400;
+    color: black;
 
 }
+
 
 .navlinks {
     text-decoration: none;

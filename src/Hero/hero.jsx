@@ -1,6 +1,7 @@
 import "./hero.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
+import { HashLink as Link } from "react-router-hash-link";
 import Clients from "../Clients/Clients.jsx";
 const hero = () => {
   return (
@@ -25,7 +26,13 @@ const hero = () => {
         <div className="button-container">
           <div className="button">
             <div className="btn">
-              <h3>Get Started</h3>
+              <Link
+                to="https://calendly.com/laiba-sabahat9/15-min?month=2025-01"
+                target="_blank"
+                style={{ textDecoration: "none" }}
+              >
+                <h3 className="h3">Get Started</h3>
+              </Link>
               <FontAwesomeIcon icon={faArrowRight} />
             </div>
           </div>
@@ -33,12 +40,13 @@ const hero = () => {
         <div className="services-container">
           <div className="services">
             <div className="btn">
-              <h3>My Services</h3>
+              <Link smooth to="#services" style={{ textDecoration: "none" }}>
+                <h3 className="h3">My Services</h3>
+              </Link>
               <FontAwesomeIcon icon={faArrowRight} />
             </div>
           </div>
         </div>
-        <div className="getservice"></div>
       </div>
       <Clients />
     </div>
