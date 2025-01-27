@@ -92,6 +92,7 @@ import {
   faPalette,
   faToolbox,
 } from "@fortawesome/free-solid-svg-icons";
+import { HashLink as Link } from "react-router-hash-link";
 
 const Services = () => {
   return (
@@ -125,12 +126,14 @@ const Services = () => {
               Build a robust, user-friendly Shopify store tailored to your brand
               and audience.
             </p>
-            <div className="btn-con">
-              <button className="arrow-right" aria-label="Take a look">
-                <FontAwesomeIcon className="arr" icon={faArrowRight} />
-              </button>
-              <span className="btn-text">Take a look</span>
-            </div>
+            <Link smooth to="#projects">
+              <div className="btn-con">
+                <button className="arrow-right" aria-label="Take a look">
+                  <FontAwesomeIcon className="arr" icon={faArrowRight} />
+                </button>
+                <span className="btn-text">Take a look</span>
+              </div>
+            </Link>
           </div>
 
           <div className="main-service">
@@ -140,12 +143,14 @@ const Services = () => {
               Create stunning, responsive Shopify themes using Liquid to reflect
               your brand identity perfectly.
             </p>
-            <div className="btn-con">
-              <button className="arrow-right" aria-label="Take a look">
-                <FontAwesomeIcon className="arr" icon={faArrowRight} />
-              </button>
-              <span className="btn-text">Take a look</span>
-            </div>
+            <Link smooth to="#projects">
+              <div className="btn-con">
+                <button className="arrow-right" aria-label="Take a look">
+                  <FontAwesomeIcon className="arr" icon={faArrowRight} />
+                </button>
+                <span className="btn-text">Take a look</span>
+              </div>
+            </Link>
           </div>
 
           <div className="main-service">
@@ -155,12 +160,14 @@ const Services = () => {
               Regular updates, bug fixes, and optimizations to ensure your store
               runs smoothly.
             </p>
-            <div className="btn-con">
-              <button className="arrow-right" aria-label="Take a look">
-                <FontAwesomeIcon className="arr" icon={faArrowRight} />
-              </button>
-              <span className="btn-text">Take a look</span>
-            </div>
+            <Link smooth to="#projects">
+              <div className="btn-con">
+                <button className="arrow-right" aria-label="Take a look">
+                  <FontAwesomeIcon className="arr" icon={faArrowRight} />
+                </button>
+                <span className="btn-text">Take a look</span>
+              </div>
+            </Link>
           </div>
         </div>
       </div>
