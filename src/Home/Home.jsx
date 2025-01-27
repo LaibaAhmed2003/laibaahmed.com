@@ -8,7 +8,6 @@ import Projects from "../Projects/Projects.jsx";
 import Benefits from "../Benefits/Benefits.jsx";
 import Testimonial from "../Testimonial/Testimonial.jsx";
 import FAQ from "../howitworks/FAQs.jsx";
-import Footer from "../Footer/Footer.jsx";
 
 const Home = () => {
   return (
@@ -23,7 +22,6 @@ const Home = () => {
         <Benefits />
         {/* <Testimonial /> */}
         <FAQ />
-        <Footer />
       </div>
     </>
   );

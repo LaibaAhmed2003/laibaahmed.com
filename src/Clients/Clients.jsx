@@ -17,39 +17,51 @@ const Clients = () => {
         </div>
         <div className="client-sec">
           {/* Original images */}
-          <img src={client1} alt="Client 1" />
-          <img src={client2} alt="Client 2" />
+          {/* <img src={client1} alt="Client 1" />
+          <img src={client2} alt="Client 2" /> */}
           <img src={velaskalogo} alt="Client 3" />
           <img src={tatalogo} alt="Client 4" />
-          <img src={vblogo} alt="Client 5" />
+          <img src={vblogo} alt="Client 5" width="250px" height="80px" />
 
           {/* Duplicate images for seamless scrolling */}
-          <img src={client1} alt="Client 1" />
+          {/* <img src={client1} alt="Client 1" />
           <img src={client2} alt="Client 2" />
           <img src={client3} alt="Client 3" />
           <img src={client4} alt="Client 4" />
-          <img src={client5} alt="Client 5" />
+          <img src={client5} alt="Client 5" /> */}
+          <img src={velaskalogo} alt="Client 3" />
+          <img src={tatalogo} alt="Client 4" />
+          <img src={vblogo} alt="Client 5" width="250px" height="80px" />
 
           {/* Duplicate images for seamless scrolling */}
-          <img src={client1} alt="Client 1" />
+          {/* <img src={client1} alt="Client 1" />
           <img src={client2} alt="Client 2" />
           <img src={client3} alt="Client 3" />
           <img src={client4} alt="Client 4" />
-          <img src={client5} alt="Client 5" />
+          <img src={client5} alt="Client 5" /> */}
+          <img src={velaskalogo} alt="Client 3" />
+          <img src={tatalogo} alt="Client 4" />
+          <img src={vblogo} alt="Client 5" width="250px" height="80px" />
 
           {/* Duplicate images for seamless scrolling */}
-          <img src={client1} alt="Client 1" />
+          {/* <img src={client1} alt="Client 1" />
           <img src={client2} alt="Client 2" />
           <img src={client3} alt="Client 3" />
           <img src={client4} alt="Client 4" />
-          <img src={client5} alt="Client 5" />
+          <img src={client5} alt="Client 5" /> */}
+          <img src={velaskalogo} alt="Client 3" />
+          <img src={tatalogo} alt="Client 4" />
+          <img src={vblogo} alt="Client 5" width="250px" height="80px" />
 
           {/* Duplicate images for seamless scrolling */}
-          <img src={client1} alt="Client 1" />
+          {/* <img src={client1} alt="Client 1" />
           <img src={client2} alt="Client 2" />
           <img src={client3} alt="Client 3" />
           <img src={client4} alt="Client 4" />
-          <img src={client5} alt="Client 5" />
+          <img src={client5} alt="Client 5" /> */}
+          <img src={velaskalogo} alt="Client 3" />
+          <img src={tatalogo} alt="Client 4" />
+          <img src={vblogo} alt="Client 5" width="250px" height="80px" />
         </div>
       </div>
     </div>
