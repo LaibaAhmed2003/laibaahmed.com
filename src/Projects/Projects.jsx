@@ -5,6 +5,7 @@ import {
   faArrowRight,
 } from "@fortawesome/free-solid-svg-icons";
 import { useEffect, useRef } from "react";
+import { HashLink as Link } from "react-router-hash-link";
 
 const Projects = () => {
   const framesRef = useRef([]); // To keep references to each frame
@@ -58,8 +59,14 @@ const Projects = () => {
                   <span className="links-span">E-commerce , Shopify </span> .
                   2024
                 </p>
-                <p className="link-icon">
-                  <FontAwesomeIcon icon={faArrowUpRightDots} />
+
+                <p>
+                  <Link to="https://tataharperskincare.com/" target="_blank">
+                    <FontAwesomeIcon
+                      icon={faArrowUpRightDots}
+                      className="link-icon"
+                    />
+                  </Link>
                 </p>
               </div>
             </div>
@@ -78,8 +85,13 @@ const Projects = () => {
                   <span className="links-span">E-commerce , Shopify </span> .
                   2024
                 </p>
-                <p className="link-icon">
-                  <FontAwesomeIcon icon={faArrowUpRightDots} />
+                <p>
+                  <Link to="https://victoriabeckhambeauty.com/" target="_blank">
+                    <FontAwesomeIcon
+                      icon={faArrowUpRightDots}
+                      className="link-icon"
+                    />
+                  </Link>
                 </p>
               </div>
             </div>
@@ -98,8 +110,13 @@ const Projects = () => {
                   <span className="links-span">E-commerce , Shopify </span> .
                   2024
                 </p>
-                <p className="link-icon">
-                  <FontAwesomeIcon icon={faArrowUpRightDots} />
+                <p>
+                  <Link to="https://www.silkandwillow.com/" target="_blank">
+                    <FontAwesomeIcon
+                      icon={faArrowUpRightDots}
+                      className="link-icon"
+                    />
+                  </Link>
                 </p>
               </div>
             </div>
@@ -118,8 +135,13 @@ const Projects = () => {
                   <span className="links-span">E-commerce , Shopify </span> .
                   2024
                 </p>
-                <p className="link-icon">
-                  <FontAwesomeIcon icon={faArrowUpRightDots} />
+                <p>
+                  <Link to="https://www.velasca.com/" target="_blank">
+                    <FontAwesomeIcon
+                      icon={faArrowUpRightDots}
+                      className="link-icon"
+                    />
+                  </Link>
                 </p>
               </div>
             </div>
@@ -138,8 +160,13 @@ const Projects = () => {
                   <span className="links-span">E-commerce , Shopify </span> .
                   2024
                 </p>
-                <p className="link-icon">
-                  <FontAwesomeIcon icon={faArrowUpRightDots} />
+                <p>
+                  <Link to="https://mejuri.com/world/en/?" target="_blank">
+                    <FontAwesomeIcon
+                      icon={faArrowUpRightDots}
+                      className="link-icon"
+                    />
+                  </Link>
                 </p>
               </div>
             </div>

@@ -1,0 +1,57 @@
+
+.projectdes-main-container{
+    background-color: black;
+    color: white;
+    overflow: hidden;
+    padding-bottom: 30px;
+}
+.project-image img{
+    width: 90%;
+    height: 600px;
+    margin: 40px 0px 40px 70px;
+}
+.project-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+.project-content .project-f-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(28, 28, 28);
+}
+.project-f-content p{
+    color: rgb(200, 199, 199);
+}
+.client-del h2{
+    font-size: 25px;
+    color: rgb(119, 118, 118);
+}
+.client-del{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 50%;
+    padding: 40px;
+    gap: 5px;
+    text-align: left;
+}
+
+.project-ga-one{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 20px;
+}
+.project-gallery{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 20px;
+}
