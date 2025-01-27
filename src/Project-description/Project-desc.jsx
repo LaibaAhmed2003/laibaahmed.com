@@ -1,5 +1,5 @@
 import "./project-desc.css";
-import tata from "../images/tata1.png";
+import tatahome from "../images/tatahome.png";
 
 const Projectdesc = () => {
   return (
@@ -7,7 +7,7 @@ const Projectdesc = () => {
       <div className="projectdes-main-container" id="Projectdesc">
         <div className="project-image">
           {/* <video /> */}
-          <img src={tata} alt="" />
+          <img src={tatahome} alt="" />
         </div>
         <div className="project-content">
           <div className="project-f-content">
@@ -64,15 +64,15 @@ const Projectdesc = () => {
         </div>
         <div className="project-gallery">
           <div className="project-ga-one">
-            <img src={tata} alt="" width="90" height="170" />
-            <img src={tata} alt="" width="200" height="150" />
+            <img src={tatahome} alt="" width="90" height="170" />
+            <img src={tatahome} alt="" width="200" height="150" />
             <div>
-              <img src={tata} alt="" width="300" height="300" />
+              <img src={tatahome} alt="" width="300" height="300" />
             </div>
           </div>
 
           <div className="project-ga-two">
-            <img src={tata} alt="" width="600" height="450" />
+            <img src={tatahome} alt="" width="600" height="450" />
           </div>
         </div>
       </div>
