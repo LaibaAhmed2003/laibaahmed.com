@@ -1,5 +1,5 @@
-import tata from "../images/tata1.png";
 import "./project-desc.css";
+import tata from "../images/tata1.png";
 
 const Projectdesc = () => {
   return (
