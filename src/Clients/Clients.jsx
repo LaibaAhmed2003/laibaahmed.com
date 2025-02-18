@@ -1,9 +1,4 @@
 import "./Clients.css";
-import client1 from "../images/client1.png";
-import client2 from "../images/client2.png";
-import client3 from "../images/client3.png";
-import client4 from "../images/client4.png";
-import client5 from "../images/client5.png";
 import tatalogo from "../images/my logos/tataharper.png";
 import vblogo from "../images/my logos/vitoriabeckham.png";
 import velaskalogo from "../images/my logos/velasca.png";
