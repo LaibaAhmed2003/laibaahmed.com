@@ -4,7 +4,7 @@ import "./project-desc.css"; // Ensure you have a separate CSS file for the proj
 
 // Importing images for each project
 import tataharperImage from "../images/tatahome.png";
-import victoriabeckhamImage from "../images/victoria1.png";
+import victoriabeckhamImage from "../../src/images/victoria1.png";
 import silkandwillowImage from "../images/silkandwillow1.png";
 import velascaImage from "../images/velasca.png";
 
