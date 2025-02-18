@@ -1,9 +1,4 @@
 import "./testimonial.css";
-import Martin from "../images/Clients/Martin.png";
-import Andrew from "../images/Clients/Andrew.png";
-import Matheas from "../images/Clients/Matheas.png";
-import Selva from "../images/Clients/selva.png";
-import karl from "../images/Clients/karl.jpg";
 import noura from "../images/Clients/Noura.jpg";
 import andrew from "../images/Clients/andrew.jpg";
 import mike from "../images/Clients/Mike_Gettis.png";

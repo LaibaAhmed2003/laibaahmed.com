@@ -3,10 +3,10 @@ import { useState, useEffect } from "react";
 import "./project-desc.css"; // Ensure you have a separate CSS file for the project description
 
 // Importing images for each project
-import tataharperImage from "../images/tatahome.png";
-import victoriabeckhamImage from "../images/victoria.png";
-import silkandwillowImage from "../images/silkandwillow.png";
-import velascaImage from "../images/velasca.png";
+import tataharperImage from "../../src/images/projectsimg/tatahome.png";
+import victoriabeckhamImage from "../../src/images/projectsimg/victoria.png";
+import silkandwillowImage from "../../src/images/projectsimg/silkandwillow.png";
+import velascaImage from "../../src/images/projectsimg/velasca.png";
 
 import tatavideo from "../videos/client-videos/tatavideo.mp4";
 import silkvideo from "../videos/client-videos/silkandwillow -video.mp4";

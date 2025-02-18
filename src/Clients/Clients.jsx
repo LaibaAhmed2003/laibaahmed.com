@@ -1,9 +1,9 @@
 import "./Clients.css";
-import tatalogo from "../images/my logos/tataharper.png";
-import vblogo from "../images/my logos/vitoriabeckham.png";
-import velaskalogo from "../images/my logos/velasca.png";
-import cettire from "../images/my logos/cettire.png";
-import endy from "../images/my logos/endy.png";
+import tatalogo from "../../src/images/my logos/tataharper.png";
+import vblogo from "../../src/images/my logos/vitoriabeckham.png";
+import velaskalogo from "../../src/images/my logos/velasca.png";
+import cettire from "../../src/images/my logos/cettire.png";
+import endy from "../../src/images/my logos/endy.png";
 
 const Clients = () => {
   return (
