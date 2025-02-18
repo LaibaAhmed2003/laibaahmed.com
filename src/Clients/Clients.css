@@ -8,11 +8,13 @@
   text-align: center;
   padding: 2rem;
   border-radius: 20rem;
-  background-image: url("../images/serv.png");
+  /* background-image: url("../images/serv.png");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover; */
+  background-color: black;
   border: 1px solid #43424280;
+  overflow-x: hidden;
 }
 
 .small-head {
@@ -25,10 +27,11 @@
   gap: 30px;
   animation: scroll 20s linear infinite;
   will-change: transform;
+  
 }
 
 .client-sec img {
-  max-height: 2rem;
+  max-height: 8rem;
   max-width: 100%;
   margin: 5px 30px;
 }
@@ -60,7 +63,7 @@
 }
 
   .client-sec img {
-    max-height: 1.5rem;
+    max-height: 3.5rem;
     margin: 14px;
     scroll-snap-align: start;
   }

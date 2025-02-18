@@ -11,7 +11,7 @@ const Results = () => {
         <div className="all-results">
           <div className="results-dec">
             <div className="num">
-              <span className="span">$</span>10,000
+              <span className="span">$</span>500
               <span className="span">+</span>
             </div>
             <p>Websites built</p>
@@ -19,7 +19,7 @@ const Results = () => {
 
           <div className="results-dec">
             <div className="num">
-              <span className="span">$</span>10,000
+              <span className="span">$</span>9,000
               <span className="span">+</span>
             </div>
             <p>Enquiries generated</p>
@@ -27,7 +27,7 @@ const Results = () => {
 
           <div className="results-dec">
             <div className="num">
-              <span className="span">$</span>10,000
+              <span className="span">$</span>12,000
               <span className="span">+</span>
             </div>
             <p>Sales generated for partners</p>

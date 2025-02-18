@@ -92,8 +92,8 @@ const FAQs = () => {
           </div>
           {showContent3 && (
             <p>
-              On average, complete store design and development takes 8-10
-              weeks. However, more complex requests can take longer.
+              On average, complete store design and development takes 4-6 weeks.
+              However, more complex requests can take longer.
             </p>
           )}
         </div>

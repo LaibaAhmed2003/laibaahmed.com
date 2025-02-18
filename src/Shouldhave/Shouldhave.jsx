@@ -2,6 +2,12 @@ import "./Shouldhave.css";
 import websitean from "../videos/web-icon.gif";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"; // Import FontAwesomeIcon
 import { faArrowRight, faArrowLeft } from "@fortawesome/free-solid-svg-icons";
+import design from "../videos/design.gif";
+import developer from "../videos/developer.gif";
+import navigation from "../videos/navigation.gif";
+import fast from "../videos/fast.gif";
+import safe from "../videos/safe.gif";
+import seo from "../videos/seo.gif";
 
 const Shouldhave = () => {
   const scrollSections = (direction) => {
@@ -15,37 +21,37 @@ const Shouldhave = () => {
 
   const sections = [
     {
-      img: websitean,
+      video: design,
       title: "Custom Web Design",
       description:
         "Your website should reflect your brand's personality and captivate visitors with a unique design.",
     },
     {
-      img: websitean,
+      video: developer,
       title: "Mobile Optimization",
       description:
         "Ensure your website looks great and functions flawlessly on every device, especially mobile.",
     },
     {
-      img: websitean,
+      video: seo,
       title: "SEO Integration",
       description:
         "Rank higher on search engines with SEO-friendly structures and strategies built into your site.",
     },
     {
-      img: websitean,
+      video: fast,
       title: "Lightning Fast Speed",
       description:
         "Slow websites lose visitors. We optimize performance for the fastest loading experience.",
     },
     {
-      img: websitean,
+      video: navigation,
       title: "User-Friendly Navigation",
       description:
         "Simplify your website's navigation to enhance user experience and improve engagement.",
     },
     {
-      img: websitean,
+      video: safe,
       title: "Secure & Reliable",
       description:
         "Your site will be equipped with the latest security features to keep your data safe.",
@@ -65,7 +71,8 @@ const Shouldhave = () => {
         <div className="should-smallsec services-mask w-slider-mask">
           {sections.map((section, index) => (
             <div className="sec w-slide" key={index}>
-              <img className="sec-vid" src={section.img} alt={section.title} />
+              <img className="sec-vid" src={section.video} />
+              {/* <img className="sec-vid" src={section.img} alt={section.title} /> */}
               <h4>{section.title}</h4>
               <p>{section.description}</p>
             </div>

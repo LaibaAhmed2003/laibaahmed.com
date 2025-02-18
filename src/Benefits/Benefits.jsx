@@ -43,7 +43,7 @@ const Benefits = () => {
             <h6>03</h6>
             <FontAwesomeIcon icon={faClock} className="perk-icon" />
             <h3>Limited Time</h3>
-            <p>Grab 30% off on all services. Offer ends on 15 Jan!</p>
+            <p>Grab 30% off on all services. Offer ends on 15 March!</p>
           </div>
 
           <div className="perk">
