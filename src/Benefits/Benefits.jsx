@@ -31,7 +31,6 @@ const Benefits = () => {
           </div>
           <div className="perk">
             <h6>02</h6>
-            {/* <FontAwesomeIcon icon={faCreditCard} className="perk-icon" /> */}
             <FontAwesomeIcon icon={faTruckFast} className="perk-icon" />
             <h3>Lightning fast delivery</h3>
             <p>
