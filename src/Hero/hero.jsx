@@ -11,9 +11,16 @@ const hero = () => {
       </div>
       <div className="main-head">
         <h1>
-          Helping your business{" "}
+          {/* Helping your business{" "}
           <span style={{ color: "#cef5a4" }}> convert </span>
-          <br></br> more online
+          <br></br> more online  */}
+          Making Your{" "}
+          <span style={{ color: "#cef5a4", fontWeight: "inherit" }}>
+            {" "}
+            Shopify Store <br></br>
+            Work{" "}
+          </span>{" "}
+          For You.
         </h1>
       </div>
       <div className="sub-text">
