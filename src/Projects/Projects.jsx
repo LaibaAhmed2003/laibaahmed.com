@@ -95,7 +95,7 @@ const Projects = () => {
         {/* Project 3 */}
         <div className="p-frame3" ref={(el) => (framesRef.current[2] = el)}>
           <div className="part1">
-            <h4>Magento</h4>
+            <h4>Shopify</h4>
             <h4>Duration - 4 Weeks</h4>
           </div>
           <div className="part2">
@@ -119,15 +119,14 @@ const Projects = () => {
         {/* Project 4 */}
         <div className="p-frame4" ref={(el) => (framesRef.current[3] = el)}>
           <div className="part1">
-            <h4>WooCommerce</h4>
+            <h4>Shopify</h4>
             <h4>Duration - 3 Weeks</h4>
           </div>
           <div className="part2">
             <h5>Velasca</h5>
             <div className="project-links">
               <p>
-                <span className="links-span">E-commerce, WooCommerce </span> .
-                2024
+                <span className="links-span">E-commerce, Shopify </span> . 2024
               </p>
               <p>
                 <Link to="/projectdesc/velasca">
